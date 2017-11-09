@@ -1,0 +1,213 @@
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+
+    <base href="/"/>
+
+    <title>Stocky</title>
+    <meta name="description" content="Stocky">
+    <meta name="author" content="lorszil">
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css"/>
+
+    <!--Style-->
+
+    <link rel="stylesheet" type="text/css" href="/resources/static/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/resources/static/css/slick.css"/>
+
+
+</head>
+<body data-spy="scroll" data-target=".main-nav">
+
+<header class="main-header" id="home">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ">
+                <div class="logo"> <a href=""><img src="/resources/static/img/logo.svg" alt="cloud" width="200px"></a></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 ">
+                <div class="head-hero">
+
+                    <h1 class="slideInDown animated">We ARE HELPING TO YOU TO GROWTH YOUR BUSINESS</h1>
+                    <h1 class="slideInDown animated" style="font-size: 20px">REGISTER NOW</h1>
+
+                    <div class="col-md-6 col-md-offset-3 ">
+                        <div class="subscribe">
+
+                            <div class="slide-left slideInLeft animated sub-form" data-plugin-options='{"reverse":true}'>
+                                <form role="form" id="mc-form" action="//ding.us9.list-manage.com/subscribe/post-json?u=50351af35c5b99edcf7967777&amp;id=ec1f1ba82c&amp;c=?">
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" placeholder="Email Address" required value="" name="EMAIL">
+                                        <span class="input-group-btn">
+                  <button type="submit" class="btn btn-default button" id="mc-subscribe" value="Subscribe" name="subscribe">REGISTER</button>
+                  </span> </div>
+                                </form>
+                                <p id="mc-notification"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<nav role="navigation" class="main-nav visible-sm visible-md visible-lg">
+    <ul class="nav">
+        <li><a href="index.html#home" class="text-hide" title="Home" data-placement="left">HOME</a></li>
+        <li><a href="index.html#features" class="text-hide" title="Features" data-placement="left">FEATURES</a></li>
+        <li><a href="index.html#team" class="text-hide" title="Team" data-placement="left">TEAM</a></li>
+        <li><a href="index.html#contact" class="text-hide" title="Contact" data-placement="left">CONTACT</a></li>
+    </ul>
+</nav>
+
+<section class="about section-spacing" id="about">
+    <div class="container">
+        <p class="text-center">Stocky is thrilled to announce the reopening of Call to Artists for the first time in 2 years. At Stocky, we are renowned for our co-op model, making artists co-owners in a business that pays the highest royalties in the industry (50-75%) and is dedicated to creative integrity.</p>
+    </div>
+
+</section>
+
+<section class="features section-spacing" id="features">
+    <div class="container">
+        <h2 class="text-center">Features</h2>
+
+        <div class="features-slider">
+            <div>
+                <div class="row">
+                    <div class="col-md-5 feat"> <img src="/resources/static/img/feat1.png" alt="App Feature img" class="slide-right"> </div>
+                </div>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-md-5 feat"> <img src="/resources/static/img/feat2.png" alt="App Feature img"> </div>
+                </div>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-md-5 feat"> <img src="/resources/static/img/feat3.png" alt="App Feature img"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="team text-center section-spacing" id="team">
+    <div class="container">
+        <h2>Meet The Team</h2>
+        <div class="row">
+            <div class="team-slider">
+                <div class="slide-left team-height">
+                    <h3>John Grey</h3>
+                    <span class="team-title">CEO</span>
+                    <figure class="team-details "> <img class="img-circle" src="/resources/static/img/team-1.jpg" alt="team">
+                    </figure>
+                </div>
+                <div class="slide-left team-height">
+                    <h3>Rick Bush</h3>
+                    <span class="team-title">Developer</span>
+                    <figure class="team-details"> <img class="img-circle" src="/resources/static/img/team-2.jpg" alt="team">
+                    </figure>
+                </div>
+                <div class="slide-left team-height">
+                    <h3>Ed Hoover</h3>
+                    <span class="team-title">Designer</span>
+                    <figure class="team-details"> <img class="img-circle" src="/resources/static/img/team-3.jpg" alt="team">
+                    </figure>
+                </div>
+                <div class="slide-left team-height">
+                    <h3>Emma Doe</h3>
+                    <span class="team-title">PR, Back office</span>
+                    <figure class="team-details"> <img class="img-circle" src="/resources/static/img/team-4.jpg" alt="team">
+                    </figure>
+                </div>
+                <div class="slide-left team-height">
+                    <h3>Dave Smith</h3>
+                    <span class="team-title">Business Consultant</span>
+                    <figure class="team-details"> <img class="img-circle" src="/resources/static/img/team-5.jpg" alt="team">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact section-spacing con-center" id="contact">
+    <h2 class="text-center">Contact Us</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 center-block">
+                <div id="form-messages"></div>
+                <form class="slide-right contact-form text-center" method="post" action="php/process.php" role="form" id="ajax-contact">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="name" id="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" class="form-control" id="message"  rows="4" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default button">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="site-footer section-spacing">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Say Hi, Get In Touch!</h3>
+
+                <ul class="social">
+                    <li class="slide-left"><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li class="slide-top"><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li class="slide-right"><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                    <li class="slide-right"><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+
+                <small>&copy; 2017 Copyright Stocky. All Rights Reserved.</small> </div>
+                <div><p class="scroll-top"><a href="index.html#"><i class="fa fa-chevron-up"></i></a></p></div>
+
+        </div>
+    </div>
+</footer>
+
+<script src="https://use.fontawesome.com/ac3c13ba8e.js"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-resource.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/resources/static/js/scroll.js"></script>
+<script type="text/javascript" src="/resources/static/js/main.js"></script>
+
+
+<script type="text/javascript" src="/resources/static/js/jquery.fadethis.min.js"></script>
+<script type="text/javascript" src="/resources/static/js/slick.min.js"></script>
+
+<!--AngularJS-->
+
+<script type="text/javascript" src="/resources/static/js/app.js"></script>
+<script type="text/javascript" src="/resources/static/js/routeController.js"></script>
+
+</body>
+</html>
